@@ -23,3 +23,6 @@ int main(){
     cout << "Maximum subarray sum is: " << maxSum_subarray(arr, size) << endl;
     return 0; 
 }
+
+// Output: Maximum subarray sum is: 8
+// Note: The above implementation uses a brute force approach with O(n^2) time complexity.
