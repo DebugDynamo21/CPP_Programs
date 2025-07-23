@@ -7,7 +7,7 @@ using namespace std;
 int binary_search(vector<int> arr, int target){
     int begin = 0, end = arr.size() - 1;
     while (begin <= end) {
-        int mid = (begin + end) / 2;
+        int mid = begin + (end - begin) / 2;    //Optimized approach
 
         if (mid == target) {
             return mid; // Target found
