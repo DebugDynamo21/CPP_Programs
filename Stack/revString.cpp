@@ -6,7 +6,7 @@ int main(){
     stack<char> st;
     string str = "Hello, World!";
 
-    for(int i : str){
+    for(char i : str){
         st.push(i);
     }
 
